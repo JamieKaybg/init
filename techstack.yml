@@ -1,0 +1,32 @@
+repo_name: JamieKaybg/init
+report_id: 65215981968c17bdfca113106253ad7d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-09T05:16:26+00:00'
+requested_by: JamieKaybg
+provider: github
+branch: circleci-project-setup
+detected_tools_count: 2
+tools:
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/JamieKaybg/init/blob/circleci-project-setup/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Jamie Kay
+  last_updated_on: 2023-03-09 02:28:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JamieKaybg/init
+  detection_source: Repo Metadata
